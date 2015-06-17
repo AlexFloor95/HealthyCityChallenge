@@ -14,21 +14,28 @@
 
   <ion-side-menu side="left">
     <ion-header-bar class="bar-stable">
-      <h1 class="title">Left</h1>
+      <h1 class="title">Wijchen Gezond</h1>
     </ion-header-bar>
     <ion-content>
       <ion-list>
+      <!-- TODO: add profile picture and achievement points, see the design for more information -->
         <ion-item menu-close ng-click="login()">
           Login
         </ion-item>
         <ion-item menu-close href="#/app/search">
-          Search
+          Zoeken
         </ion-item>
-        <ion-item menu-close href="#/app/browse">
-          Browse
+        <ion-item menu-close href="#/app/followers">
+          Volgers
         </ion-item>
-        <ion-item menu-close href="#/app/playlists">
-          Playlists
+         <ion-item menu-close href="#/app/settings">
+          Instellingen
+        </ion-item>
+        <ion-item menu-close href="#/app/help">
+          Help
+        </ion-item>
+        <ion-item menu-close href="#/app/logout">
+          Log uit
         </ion-item>
       </ion-list>
     </ion-content>
