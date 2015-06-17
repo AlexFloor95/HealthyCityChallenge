@@ -1,7 +1,7 @@
 # HealthyCityChallenge
 Wijchen gezond app
 
-Testing goes as follow:
+Testing goes as follows:
 
 - Install ionic on your computer: http://ionicframework.com/getting-started/
 
