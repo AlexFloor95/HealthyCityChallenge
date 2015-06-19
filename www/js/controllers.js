@@ -43,7 +43,36 @@ angular.module('starter.controllers', [])
 
 .controller('PlaylistsCtrl', function($scope) {
   $scope.playlists = [
-    { title: 'Reggae', id: 1 },
+    { 
+        title: 'Voetbaltoernooi AWC', id: 1, when: '20-06-2015 12:00', participants: '32/40',
+        description: 'Voetbalclub s.v AWC heeft zijn velden vrijgegeven voor het organiseren van een Voetbaltoernooi, er wordt gespeeld met teams van 5 tegen 5.',
+        location: 'AWC, De Wychert 1, 6603 AH Wijchen', coords:'51.80821/5.74813', owner:'Jeroen Peters'
+    },
+    { 
+        title: 'Wandeltocht hoge veluwe AWC', id: 1, when: '21-06-2015 10:00', participants: '19/20',
+        description: 'Een sportieve wandeling door het prachtige landschap van de hoge veluwe, waar de heide volop bloeit.',
+        location: 'Dorpsstraat 2, 6731 AT Otterlo, Netherlands', coords:'52.10128/5.77197', owner:'Jeffrey Koers'
+    },
+    { 
+        title: 'Voetbaltoernooi AWC', id: 1, when: '20-06-2015', participants: '32/40',
+        description: 'Voetbalclub s.v AWC heeft zijn velden vrijgegeven voor het organiseren van een Voetbaltoernooi, er wordt gespeeld met teams van 5 tegen 5.',
+        location: 'AWC, De Wychert 1, 6603 AH Wijchen', coords:'51.80821/5.74813', owner:'Alex Floor'
+    },
+    { 
+        title: 'Voetbaltoernooi AWC', id: 1, when: '20-06-2015', participants: '32/40',
+        description: 'Voetbalclub s.v AWC heeft zijn velden vrijgegeven voor het organiseren van een Voetbaltoernooi, er wordt gespeeld met teams van 5 tegen 5.',
+        location: 'AWC, De Wychert 1, 6603 AH Wijchen', coords:'51.80821/5.74813', owner:'Jeroen Peters'
+    },
+    { 
+        title: 'Voetbaltoernooi AWC', id: 1, when: '20-06-2015', participants: '32/40',
+        description: 'Voetbalclub s.v AWC heeft zijn velden vrijgegeven voor het organiseren van een Voetbaltoernooi, er wordt gespeeld met teams van 5 tegen 5.',
+        location: 'AWC, De Wychert 1, 6603 AH Wijchen', coords:'51.80821/5.74813', owner:'Jeffrey Koers'
+    },
+    { 
+        title: 'Voetbaltoernooi AWC', id: 1, when: '20-06-2015', participants: '32/40',
+        description: 'Voetbalclub s.v AWC heeft zijn velden vrijgegeven voor het organiseren van een Voetbaltoernooi, er wordt gespeeld met teams van 5 tegen 5.',
+        location: 'AWC, De Wychert 1, 6603 AH Wijchen', coords:'51.80821/5.74813', owner:'Alex Floor'
+    },
     { title: 'Chill', id: 2 },
     { title: 'Dubstep', id: 3 },
     { title: 'Indie', id: 4 },
